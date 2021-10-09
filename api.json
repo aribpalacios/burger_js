@@ -1,0 +1,74 @@
+[
+  {
+    "precio": 500,
+    "id": 1,
+    "title": "Burger Clásica",
+    "fotoProducto": "./img/clasica.jpg"
+  },
+  {
+    "precio": 550,
+    "id": 2,
+    "title": "Burger con Bacon",
+    "fotoProducto": "./img/bacon.jpg"
+  },
+  {
+    "precio": 600,
+    "id": 3,
+    "title": "Burger Doble",
+    "fotoProducto": "./img/doble.jpg"
+  },
+  {
+    "precio": 750,
+    "id": 4,
+    "title": "Burger Triple",
+    "fotoProducto": "./img/triple.jpg"
+  },
+  {
+    "precio": 500,
+    "id": 5,
+    "title": "Burger X4",
+    "fotoProducto": "./img/x4.jpg"
+  },
+  {
+    "precio": 650,
+    "id": 6,
+    "title": "Burger X5",
+    "fotoProducto": "./img/x5.jpg"
+  },
+  {
+    "precio": 650,
+    "id": 7,
+    "title": "Burger Italiana",
+    "fotoProducto": "./img/italiana.jpg"
+  },
+  {
+    "precio": 750,
+    "id": 8,
+    "title": "Burger Huevo",
+    "fotoProducto": "./img/huevo.jpg"
+  },
+  {
+    "precio": 700,
+    "id": 9,
+    "title": "Burger Umami",
+    "fotoProducto": "./img/umami.jpg"
+  },
+  {
+    "precio": 650,
+    "id": 7,
+    "title": "Burger Mexican",
+    "fotoProducto": "./img/mexican.jpg"
+  },
+  {
+    "precio": 750,
+    "id": 8,
+    "title": "Burger Criolla",
+    "fotoProducto": "./img/criolla.jpg"
+  },
+  {
+    "precio": 700,
+    "id": 9,
+    "title": "Burger Dorada",
+    "fotoProducto": "./img/dorada.jpg"
+  }
+]

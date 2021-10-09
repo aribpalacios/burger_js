@@ -1,0 +1,286 @@
+:root{
+  --color-amarillo:yellow;
+  --color-negro: black;
+  --color-smoke: whitesmoke;
+  --color-modal:rgb(199, 196, 7);
+
+}
+
+body{
+  background-color: black;
+
+}
+/* nav */
+
+.logo{
+  width: 150px;
+  height: 60px;
+}
+.logo:hover{
+  opacity: 80%;
+  transition: 0.5s;
+}
+#menu li a{
+  color: var(--color-amarillo);
+}
+  /* fin nav */
+
+  /* sliders */
+  .sliderImg{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+  }
+  .slider{
+    width: 1200px;
+    height: 700px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slides{
+    width: 1200%;
+    height: 700px;
+    display: flex;
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    object-fit: cover;
+    width: 1200px;
+    height: 700px;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .navigation-manual{
+    position: relative;
+    width: 1200px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .manual-btn{
+    border: 2px solid var(--color-amarillo);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: var(--color-amarillo);
+  }
+  
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: relative;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+    visibility: hidden;
+  }
+  
+  .navigation-auto div{
+    border: 2px solid var(--color-amarillo);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: var(--color-amarillo);
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: var(--color-amarillo);
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: var(--color-amarillo);
+  }
+  
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: var(--color-amarillo);
+  }
+
+/* nosotros */
+
+.foto_perfil{
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.altura{
+  padding: 100px 0 20px;
+  
+}
+.titulo{
+  color: var(--color-amarillo);
+}
+.nosotros_texto{
+  color: var(--color-smoke);
+}
+
+  /* menu */
+.menu{
+  display: flex;
+  padding: 40px;
+  font-size: 35px;
+  justify-content: center;
+  color: var(--color-amarillo);
+  align-items: center;
+}
+li a {
+  position: relative;
+      color:var(--color-amarillo);
+      padding: 20px;
+      font-size: 1.2rem;
+      transition-duration: 0.7s ;
+      letter-spacing: 0.5px;
+}
+
+
+
+.shopping-cart-total {
+  min-height: 60px;
+}
+
+.compraFinal{
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.table{
+  color: var(--color-smoke);
+}
+.carritoBox{
+  padding: 50px;
+}
+
+.compra_final{
+  display: flex;
+  justify-content: right;
+}
+.btnCompraFinal{
+  justify-content: center;
+  background-color: var(--color-amarillo);
+  color: var(--color-negro);
+  border: 0;
+  box-shadow: 0 1px;
+  border-radius:  3px;
+  font-size: 13px;
+  padding: 10px 20px;
+
+}
+
+.btn-suma{
+  background-color:  var(--color-amarillo);
+  color: var(--color-negro);
+}
+.btn-dark{
+  background-color: var(--color-negro);
+  color:  var(--color-amarillo);
+  border: none;
+}
+.productos{
+  border: none;
+  margin-bottom: 20px;
+}
+.productos :hover{
+  opacity: 90%;
+  transition: all 1s ease;
+}
+.card-body{
+  background-color: var(--color-smoke);
+}
+
+
+.btnCerrarModal{
+  background-color:  var(--color-amarillo);
+  color: var(--color-negro);
+  border: 0;
+  box-shadow: 0 1px;
+  border-radius:  3px;
+  font-size: 13px;
+  padding: 10px 20px;
+
+}
+
+.carrito{
+  color:var(--color-amarillo);
+}
+
+/* modal gracias por tu compra */
+.modal-container1{
+  position: relative;
+  display: flex;
+  background-color: var(--color-modal) ;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+
+}
+
+.modal1{
+  background-color: var(--color-negro);
+  color: var(--color-smoke);
+  width: 400px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* fin gracias x tu compra */
